@@ -12,28 +12,29 @@
  border-radius: function.rem(20px);
  font-family: variable.$font-family;
  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
 
- &__image {
-  border-radius: function.rem(10px);
- }
- &__header {
-  font-weight: variable.$font-weight-bold;
-  text-align: center;
-  font-size: function.rem(22px);
-  margin-top: function.rem(24px);
-  color: var(--slate-900);
-  line-height: 1.2;
- }
+.card__image {
+ border-radius: function.rem(10px);
+}
 
- &__text {
-  font-weight: 400;
-  font-size: function.rem(15px);
-  color: variable.$slate-500;
-  margin-top: function.rem(15px);
-  margin-bottom: 0;
-  text-align: center;
-  line-height: 1.4;
-  font-family: inherit;
-  letter-spacing: 0.2px;
- }
+.card__header {
+ font-weight: variable.$font-weight-bold;
+ text-align: center;
+ font-size: function.rem(22px);
+ margin-top: function.rem(24px);
+ color: var(--slate-900);
+ line-height: 1.2;
+}
+
+.card__text {
+ font-weight: 400;
+ font-size: function.rem(15px);
+ color: variable.$slate-500;
+ margin-top: function.rem(15px);
+ margin-bottom: 0;
+ text-align: center;
+ line-height: 1.4;
+ font-family: inherit;
+ letter-spacing: 0.2px;
 }
