@@ -1,0 +1,8 @@
+@use "../utils/variables" as variable;
+
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: variable.$slate-300;
+}
